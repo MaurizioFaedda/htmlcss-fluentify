@@ -245,3 +245,48 @@ nav{
     padding-bottom: 30px;
     /* border-bottom: 1px solid rgba(0,0,0,0.2); */
 }
+
+.central-bottom h1 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+    float: left;
+    text-align: center;
+}
+
+.central-bottom h3, .central-bottom p {
+    text-align: center;
+}
+
+.central-icon-bottom {
+    width: 100%;
+    float: left;
+
+}
+
+.central-icon-bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.central-icon-bottom ul {
+    width: 33.33%;
+    float: left;
+}
+
+.central-icon-bottom li {
+    width: 100%;
+    margin: auto;
+}
+
+.img-li {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+
+.img.li img {
+    width: 100%;
+    margin: auto;
+}
