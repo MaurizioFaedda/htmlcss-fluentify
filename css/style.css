@@ -442,7 +442,6 @@ nav{
 
 footer {
     width: 100%;
-    height: 600px;
     background-color: #00194f;
     color: #fff;
 }
@@ -465,8 +464,23 @@ footer li {
 }
 
 .colonnasx {
-    width: 18%;
+    width: 20%;
     float: left;
+}
+
+.colonnadx {
+    width: 80%;
+    padding-top: 50px;
+    float: left;
+}
+
+.colonnadx-top {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+.colonnadx a {
+    color: #fff;
 }
 
 .logo-ft {
@@ -487,4 +501,27 @@ footer li {
     padding-right: 18px;
     font-size: 16px;
     color: #62d784;
+}
+
+.ul-title::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.li-title {
+    width: calc(100% / 6);
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: top;
+    float: left;
+}
+
+.colonnadx-bottom {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.colonnadx-bottom li {
+    padding-right: 30px;
+    display: inline-block;
 }
