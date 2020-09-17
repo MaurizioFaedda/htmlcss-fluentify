@@ -64,6 +64,24 @@ a {
     border-color: #fff;
 }
 
+.stick-curve-sx {
+    width: 160px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.stick-curve-dx {
+    width: 130px;
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+}
+
+.stick-curve-sx img, .stick-curve-dx img {
+    width: 100%;
+}
+
 header {
 
     background-color: blue;
@@ -98,8 +116,8 @@ nav{
     z-index: 3;
     position: fixed;
     margin: auto;
-    background-color: red;
-    border-top: 1px solid #797979;
+        /* background-color: rgba(3,28,80, 0.3);
+        border-top: 1px solid #797979; */
 }
 
 #main-menu {
