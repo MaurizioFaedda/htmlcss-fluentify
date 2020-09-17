@@ -479,7 +479,7 @@ footer li {
     border-bottom: 1px solid #fff;
 }
 
-.colonnadx a {
+footer a {
     color: #fff;
 }
 
@@ -500,7 +500,14 @@ footer li {
     display: inline-block;
     padding-right: 18px;
     font-size: 16px;
+}
+
+.fab {
     color: #62d784;
+}
+
+.ul-vertical {
+    padding-top: 14px;
 }
 
 .ul-title::after {
@@ -524,4 +531,8 @@ footer li {
 .colonnadx-bottom li {
     padding-right: 30px;
     display: inline-block;
+}
+
+footer a:hover, .fab:hover {
+    color: rgba(98,215,132,0.6);
 }
