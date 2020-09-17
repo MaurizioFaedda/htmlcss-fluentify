@@ -385,7 +385,44 @@ nav{
     float: left;
 }
 
+.piatt-dx p {
+    color: #797979;
+}
+
 .piatt-dx h2 {
     padding-bottom: 14px;
+    color: #2b406b;
 }
 /* fine piattaforma */
+
+/* scopri */
+.scopri{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #2a4781;
+}
+
+.scopri-sx {
+    width: 50%;
+    padding: 30px 0;
+    padding-right: 10px;
+    float: left;
+}
+
+.scopri h2 {
+    color: #fff;
+    font-size: 32px;
+
+}
+
+.scopri-dx {
+    width: 50%;
+    margin-top: 30px;
+    color: #fff;
+    float: left;
+}
+.scopri-button {
+    width: 100%;
+    margin-top: 30px;
+
+}
