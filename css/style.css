@@ -245,8 +245,13 @@ nav{
     border: none;
 }
 .central-dx h1 {
-    color: #011a50;
+    color: #797979;
     padding-top: 30px;
+}
+
+.central-dx h3 {
+    color: #011a50;
+
 }
 
 .central-dx p {
@@ -303,7 +308,7 @@ nav{
 }
 
 .central-icon-bottom li {
-    width: 33%;
+    width: calc(100% / 3);
     margin: auto;
     float: left;
 }
@@ -356,10 +361,11 @@ nav{
 .app-img {
     width: 55%;
     margin: auto;
-}
+    }
 
 .app-img img {
     width: 100%;
+    display: block;
 }
 
 /* fine app */
@@ -430,5 +436,55 @@ nav{
 .scopri-button {
     width: 100%;
     margin-top: 30px;
+}
 
+/* footer */
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: #00194f;
+    color: #fff;
+}
+
+footer li {
+    font-weight:100;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container-ft {
+    width: 1380px;
+    margin: auto;
+}
+
+.container-ft::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonnasx {
+    width: 18%;
+    float: left;
+}
+
+.logo-ft {
+    width: 60%;
+    padding: 50px 0;
+}
+
+.logo-ft img {
+    width: 100%;
+}
+
+.contact-ft li:nth-child(4) {
+    padding:20px 0;
+}
+
+.ul-social li{
+    display: inline-block;
+    padding-right: 18px;
+    font-size: 16px;
+    color: #62d784;
 }
